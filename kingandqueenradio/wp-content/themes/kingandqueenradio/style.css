@@ -1,0 +1,111 @@
+/*
+Theme Name: kingandqueenradio
+Description: kingandqueenradio responsive wordpress them based on twitter bootstrap  please do not delete twentysixteen wordpress them 
+Version: 1.0
+Author: suman kumar
+Template: twentysixteen
+/* =Reset CSS
+----------------------------------------------------------------- */
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300italic,300,400italic,600,600italic,700,700italic,800,800italic);
+@import url("../twentysixteen/style.css");
+
+body{ margin:0; padding:0; background:#ffffff; font-size:16px; font-family: 'Open Sans', sans-serif; font-weight:400;}
+ul, li { list-style-type:none;}
+h1, h2, h3, h4, h5, h6 { font-weight:700; font-family: 'Open Sans', sans-serif;}
+body:not(.custom-background-image)::before, body:not(.custom-background-image)::after{ height:0;}
+a:hover {text-decoration:none;}
+
+
+.site-branding{  display: inline-block;  height: 150px; top:55px;   left: 50%;    margin-left: -75px;    position: absolute;    width: 150px;    z-index: 9999 !important;}
+#menugtop{ background:#00aeef;}
+.social-navigation ul{ margin:0!important;}
+
+.site{ margin:0;}
+.entry-content, .entry-header{ margin:0!important;}
+.site-inner{ max-width:100%;}
+.site-header { background:#ffffff;  padding:0; }
+.top_banner .site-content { padding-top:0!important;}
+.site-content{ padding:45px 0 0!important;}
+
+.site-header-main, .site-content, .contentdiv{ max-width:1170px; padding: 15px; width:100%; margin: 0 auto;}
+.site-title a{ background: url(images/logo.png) no-repeat;   display: inline-block;   height: 150px;   text-indent: -9999px;  width: 150px;}
+.site-title{ margin-top:-40px;}
+.main-navigation{ margin:0!important;}
+.main-navigation a{  border-right: 2px solid #006838;   color: #fff;	 font:14px;    font-family: "Open Sans",sans-serif !important;   font-weight: bold;   margin: 0;   padding: 20px 22px !important;   text-transform: capitalize;}
+.main-navigation .current-menu-item > a, .main-navigation .current-menu-ancestor > a, .main-navigation a:hover, .main-navigation a:focus{ background:#006931; font-weight:bold; color:#ffffff!important;}
+.site-branding, .site-header-menu, .header-image{ margin-top:0; margin-bottom:0;}
+.slider  img{ width:100%; max-width:100%; margin: o auto;}
+.divleft, .phone_number{ width:50%; float: left; padding:15px 0;}
+
+.divleft span{ font-size:24px; font-weight: bold; color:#00aeef;}
+
+.phone_number .social-navigation li{ float:none; display: inline-block;margin:0!important;}
+.social-navigation li a{ height: 38px; width: 40px;  background:url(images/social_icon.png) no-repeat;}
+.sociallinks-menu li a span{ font-size:0; }
+.social-navigation .facebook a{ background-position: -40px 0;}
+.social-navigation .twitter a{ background-position: 0 0;}
+.social-navigation .youtube a{ background-position: -204px 0;}
+.social-navigation .pintrest a{ background-position: -121px 0;}
+.social-navigation .Googlepluse  a{background-position: -80px 0;}
+
+
+.top_banner{ background: url(images/title_banner.jpg) no-repeat; min-height:130px; margin-bottom:45px!important; }
+.top_banner .entry-title  { color:#00aeef; font-family: 'Open Sans', sans-serif; font-size:42px; font-weight: bold; text-transform: capitalize; }
+.top_banner .entry-title a:hover{ text-decoration:none;}
+.top_banner .entry-title{ margin: 40px 0;}
+.site-main{ margin-bottom:0;}
+
+/* home  page */
+.home-content{ text-align: center;}
+.entry-page{ margin:0 0 15px!important;}
+.home-content h3{ text-transform: uppercase;}
+
+/* contact form  */
+.form{  width:55%; margin-right:5%; float: left;}
+.address{ width:40%; float: right;}
+.form div{ margin-bottom:10px;}
+.submit .wpcf7-submit{ background:#006931 ;}
+.post-content  .post-thumbnail, .single-post .post-thumbnail{ float: left; max-width:30%; border: solid 5px #ccc;}
+.single-post .post-thumbnail{ margin-right:5%;}
+.intro-post{ float:left; width:65%; margin-left:5%;}
+.site-main > article{ margin-bottom:20px;}
+.intro-post .entry-title{ margin-bottom:15px;}
+.intro-post .entry-title a{ box-shadow: none; text-transform: capitalize;}
+.intro-post p{ font-size:16px; line-height: normal;}
+.readmore{  box-shadow: none!important; float: right;}
+.pagination{ margin-bottom:20px!important; border-top:none!important;}
+.page-numbers{ border: solid 2px #ddd; color:#ddd; border-radius: 4px; -moz-border-radius: 4px; -webkit-border-radius: 4px;}
+.pagination .prev, .pagination .next{ border:none;}
+.nav-links div{ display: inline-block;}
+.nav-next{ float:right;}
+.post-navigation a{  padding:10px 0;}
+.post-navigation div + div{ border:none;}
+.post-navigation{ margin-bottom:20px!important; border:none; margin-top:20px;}
+.pagination .current{ font-weight: normal; color:#006931;}
+.last a{ background:none!important;}
+.facebook a {background: url(images/fb.jpg) no-repeat;}
+.twitter  a {background: url(images/twitter.jpg) no-repeat;}
+.googleplus  a {background: url(images/google.jpg) no-repeat;}
+.Linkedin  a {background: url(images/linkedin.jpg) no-repeat;}
+.social-navigation a{ border: none;}
+.widget { padding:0; margin:0; border:none;}
+.three-block a{ float: left; margin:0 2px;}
+.bottom-section .post-content{ width:100%; clear: both;}
+.latest{ width:65%; float: left;}
+.varieties{ width:30%;  margin-left:15px; float: right;}
+
+
+
+
+/* footer */
+
+.site-footer{ padding:30px 0 30px !important; color:#fff;  background:#000; display: block;}
+.site-footer .menu-social_menu-container li span{ font-size:0px;}
+.our-location{ margin-top:35px;}
+.our-location .title{ margin-bottom:5px!important;}
+.site-footer .menu-footermenu-container li { float:none; text-align: left;}
+.site-footer .menu-footermenu-container li a{ color:#fff; display: inline-block; font-size:16px; text-transform: capitalize; background:none; padding-left:0;}
+.site-footer .title{ font-size:18px; color:#fff; text-align: left; margin-bottom:20px; text-transform:  capitalize;}
+.site-footer .main-navigation{ display: block!important;}
+.site-footer .main-navigation, .social-navigation { width:100%; clear:both; text-align: right; }
+.copyright{ background:#00aeef; text-align: center;  font-size:13px; color:#ffffff; padding:10px 0; }
